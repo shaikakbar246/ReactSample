@@ -1,0 +1,21 @@
+.product-list{
+display:flex;
+flex-wrap: wrap;
+gap: 10px;
+margin: 20px;
+}
+.card{
+    width:250px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    display:flex;
+    align-items: center;
+    object-fit: contain;
+    justify-content: space-between;
+}
